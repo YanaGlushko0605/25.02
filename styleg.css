@@ -1,0 +1,29 @@
+.left {
+	background: green;
+	transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
+}
+.right {
+    background: #000;
+    transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
+}
+.cube {
+	position: relative;
+}
+.side {
+	height: 100px;
+	position: absolute;
+	width: 100px;
+} 
+.top {
+	background: red;
+	transform: rotate(-45deg) skew(15deg, 15deg);
+}
+.box {
+	transform: perspective(200px) rotateX(45deg);
+	position: absolute;
+}
+.mandarin {
+	width: 200px;
+	height: 200px;
+	background: red;
+}
